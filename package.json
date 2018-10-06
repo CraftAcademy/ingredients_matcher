@@ -1,5 +1,8 @@
 {
   "name": "ingredients_matcher",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^0.6.6"
+  }
 }
