@@ -7,3 +7,15 @@ end
 Given("I visit the landing page") do
     visit root_path
 end
+
+Then("I check {string}") do |option|
+    check option
+  end
+
+Then("I click on {string} to get the recipe") do |link|
+    click_on link
+end
+
+Then('stop') do 
+    binding.pry
+end

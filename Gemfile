@@ -15,6 +15,8 @@ gem 'rest-client'
 
 
 group :development, :test do
+  gem 'chromedriver-helper'
+  gem 'selenium-webdriver'
   gem 'cucumber-rails',require: false
   gem 'database_cleaner'
   gem 'factory_bot_rails'
@@ -23,6 +25,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'coveralls', require: false
+  gem 'webmock'
 end
 
 group :development do 
